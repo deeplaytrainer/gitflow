@@ -1,7 +1,9 @@
 public class Player {
+
     enum Color{
         WHITE,BLACK
     }
+
     private final String fullName;
     private final Color color;
 
@@ -11,10 +13,10 @@ public class Player {
     }
 
     public String getName() {
-        return name;
+        return fullName;
     }
 
-    public String getColor() {
+    public Color getColor() {
         return color;
     }
 }

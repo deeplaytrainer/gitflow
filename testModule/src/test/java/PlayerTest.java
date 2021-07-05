@@ -7,7 +7,7 @@ class PlayerTest {
     @Test
     void test(){
         String name = "vlad";
-        Player player = new Player(name,"black");
+        Player player = new Player(name, Player.Color.BLACK);
 
         assertEquals(name,player.getName());
     }
