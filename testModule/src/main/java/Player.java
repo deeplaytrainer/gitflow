@@ -1,9 +1,12 @@
 public class Player {
-    private final String name;
-    private final String color;
+    enum Color{
+        WHITE,BLACK
+    }
+    private final String fullName;
+    private final Color color;
 
-    public Player(String name, String color) {
-        this.name = name;
+    public Player(String fullName, Color color) {
+        this.fullName = fullName;
         this.color = color;
     }
 
