@@ -7,4 +7,11 @@ public class Player {
         this.color = color;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getColor() {
+        return color;
+    }
 }
