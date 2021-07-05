@@ -4,8 +4,4 @@ public class Player2 {
     public String getName() {
         return fullName;
     }
-
-    public void setName(String name) {
-        this.fullName = name;
-    }
 }
